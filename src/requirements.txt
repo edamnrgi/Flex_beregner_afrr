@@ -1,7 +1,0 @@
-streamlit 
-numpy 
-pandas
-requests
-matplotlib
-openpyxl
-holidays
