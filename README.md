@@ -1,1 +1,3 @@
-# Flex_beregner_afrr
+# Velkommen til Flex_beregner_afrr
+
+tekst mangler
