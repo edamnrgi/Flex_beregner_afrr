@@ -57,7 +57,8 @@ def load_data_parquet(path):
 #df_data = load_data_parquet('./data/aFRR_aktiveringsdata_kopi.parquet')
 if "df_data" not in st.session_state:
     #st.session_state.df_data = load_data_parquet('./data/aFRR_aktiveringsdata_20250627.parquet')
-    st.session_state.df_data = load_data_parquet('./data/aFRR_aktiveringsdata_kopi.parquet')
+    #st.session_state.df_data = load_data_parquet('./data/aFRR_aktiveringsdata_kopi.parquet')
+     st.session_state.df_data = load_data_parquet('./data/aFRR_aktiveringsdata_kopi.parquet')
     
 df_data = st.session_state.df_data
 
@@ -692,4 +693,5 @@ if "applied_filters" in st.session_state:
     st.sidebar.dataframe(st.session_state.applied_filters, height= len(st.session_state.applied_filters) * 38)
 else:
     st.sidebar.info("Ingen filtre er anvendt endnu.")
+
 
