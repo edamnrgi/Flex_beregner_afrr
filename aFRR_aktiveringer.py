@@ -1,4 +1,4 @@
-pip install -r /src/requirements.txt
+!pip install -r /src/requirements.txt
 
 import streamlit as st
 import numpy as np
@@ -695,6 +695,7 @@ if "applied_filters" in st.session_state:
     st.sidebar.dataframe(st.session_state.applied_filters, height= len(st.session_state.applied_filters) * 38)
 else:
     st.sidebar.info("Ingen filtre er anvendt endnu.")
+
 
 
 
